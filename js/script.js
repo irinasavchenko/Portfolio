@@ -38,6 +38,11 @@ var dict = {
         ru: "Савченко Ирина",
         ua: "Савченко Ірина"
     },
+    "pdf_file": {
+        en: "Download pdf file",
+        ru: "Загрузить pdf файл",
+        ua: "Завантажити pdf файл"
+    },
     "date_of_birth": {
         en: "<b>Date of birth:</b> 15-th of August 2015 (30 years)",
         ru: "<b>Дата рождения:</b> 15 августа 2015 (30 лет)",
@@ -94,7 +99,7 @@ var dict = {
     "lang": {
         en: "<b>Languages:</b>",
         ru: "<b>Языки:</b>",
-        ua: "<b>Язики:</b>"
+        ua: "<b>Мови:</b>"
     },
     "lang_en": {
         en: "<span>English:</span> (pre-intermediate) continue studying and improving knowledge",
@@ -135,14 +140,8 @@ var dict = {
 
 $(document).ready(function() {
     $('body').translate({lang: "en", t: dict}); // initialize the plugin and translate the entire page body
-    $("b").css("color","#2D1F6F");
-    $("li span").css("color","#2D1F6F");
-    $("p").css("text-align","justify");
     $('#language').change(function () { //choose language
         $('body').translate({lang: $(this).val(), t: dict});
-        $("b").css("color","#2D1F6F");
-        $("li span").css("color","#2D1F6F");
-        $("p").css("text-align","justify");
     });
 
 });
