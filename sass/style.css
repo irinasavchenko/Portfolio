@@ -138,7 +138,7 @@ nav#navigation {
   #about_me .my_edu_exp {
     width: 46%;
     float: left;
-    padding: 0 10px 0 15px; }
+    padding: 0 10px 25px 15px; }
     #about_me .my_edu_exp h2, #about_me .my_edu_exp h3 {
       font-family: 'Andika', sans-serif;
       color: #12064a;
@@ -179,14 +179,17 @@ nav#navigation {
 #credit {
   padding: 30px 0; }
   #credit p.credit {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: bold;
     width: 450px;
     padding: 5px 16px;
     margin-bottom: 5px;
     color: #211D34; }
     #credit p.credit a {
-      font-weight: normal; }
+      font-weight: normal;
+      color: rgba(24, 31, 74, 0.61); }
+    #credit p.credit a:hover {
+      font-weight: bold; }
 
 #contacts {
   margin: 25px 0;
@@ -199,40 +202,71 @@ nav#navigation {
     #contacts .content_contacts h4 {
       text-align: center;
       font-family: 'Andika', sans-serif;
-      color: #12064a;
       margin: 0;
       font-size: 20px;
       line-height: 50px; }
+      #contacts .content_contacts h4 a.facebook, #contacts .content_contacts h4 a.skype, #contacts .content_contacts h4 a.ln, #contacts .content_contacts h4 a.twitter, #contacts .content_contacts h4 a.github, #contacts .content_contacts h4 a.e_mail {
+        padding: 0 45px;
+        color: rgba(24, 31, 74, 0.61); }
+      #contacts .content_contacts h4 a.facebook:hover, #contacts .content_contacts h4 a.skype:hover, #contacts .content_contacts h4 a.ln:hover, #contacts .content_contacts h4 a.twitter:hover, #contacts .content_contacts h4 a.github:hover, #contacts .content_contacts h4 a.e_mail:hover {
+        color: #12064a;
+        font-weight: bold;
+        text-decoration: none; }
+      #contacts .content_contacts h4 a.facebook {
+        background: url("../images/facebook.png") no-repeat; }
+      #contacts .content_contacts h4 a.facebook:hover {
+        background: url("../images/facebook_color.png") no-repeat; }
+      #contacts .content_contacts h4 a.skype {
+        background: url("../images/skype.png") no-repeat; }
+      #contacts .content_contacts h4 a.skype:hover {
+        background: url("../images/skype_color.png") no-repeat; }
+      #contacts .content_contacts h4 a.ln {
+        background: url("../images/linkedin.png") no-repeat; }
+      #contacts .content_contacts h4 a.ln:hover {
+        background: url("../images/linkedin_color.png") no-repeat; }
+      #contacts .content_contacts h4 a.twitter {
+        background: url("../images/twitter.png") no-repeat; }
+      #contacts .content_contacts h4 a.twitter:hover {
+        background: url("../images/twitter_color.png") no-repeat; }
+      #contacts .content_contacts h4 a.github {
+        background: url("../images/github.png") no-repeat; }
+      #contacts .content_contacts h4 a.github:hover {
+        background: url("../images/github_color.png") no-repeat; }
+      #contacts .content_contacts h4 a.e_mail {
+        background: url("../images/email.png") no-repeat; }
+      #contacts .content_contacts h4 a.e_mail:hover {
+        background: url("../images/email_color.png") no-repeat; }
     #contacts .content_contacts h4 > b {
       color: #12064a; }
 
 @media screen and (max-width: 1100px) {
-  #my_exp_edu .prog_bar {
+  #about_me .my_skills {
     clear: both;
     width: 100%;
     margin-top: 20px; }
-    #my_exp_edu .prog_bar .container {
+    #about_me .my_skills .container {
       width: 500px;
       margin: 0 auto; }
-  #my_exp_edu .about_me {
+  #about_me .my_edu_exp {
     width: 66%; }
-  #my_exp_edu .my_photo {
+  #about_me .my_photo {
     width: 33%; } }
 @media screen and (max-width: 767px) {
-  #my_exp_edu .prog_bar {
+  #about_me .my_skills {
     clear: both;
     width: 100%;
     margin-top: 20px; }
-    #my_exp_edu .prog_bar .container {
+    #about_me .my_skills .container {
       width: 500px;
       margin: 0 auto; }
-  #my_exp_edu .about_me {
+  #about_me .my_edu_exp {
     width: 100%;
     clear: both; }
-    #my_exp_edu .about_me h2, #my_exp_edu .about_me h3 {
+    #about_me .my_edu_exp h2, #about_me .my_edu_exp h3 {
       text-align: center; }
-  #my_exp_edu .my_photo {
-    width: 100%; }
+  #about_me .my_photo {
+    width: 100%;
+    height: 350px; }
 
   nav#navigation .container-fluid button {
     padding: 7px 7px;
@@ -243,5 +277,8 @@ nav#navigation {
 
   #main {
     width: 90%; } }
+@media screen and (max-width: 700px) {
+  #contacts .content_contacts {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

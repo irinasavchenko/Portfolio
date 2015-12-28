@@ -50,7 +50,7 @@ var dict = {
     },
     "town": {
         en: "<b>Town:</b> Kharkiv",
-        ru: "<b>Город</b> Харьков",
+        ru: "<b>Город:</b> Харьков",
         ua: "<b>Місто:</b> Харків"
     },
     "obj": {
@@ -135,6 +135,11 @@ var dict = {
         en: "<span>2002-2007</span> V.N. Karazin Kharkiv National University, Mechanics and Mathematics department, specialization: Mathematics. Master`s degree in Mathematics and Computer Science",
         ru: "<span>2002-2007</span> ХНУ им.В.Н.Каразина, механико-математический факультет, специализация: математика. Магистр математики и информатики.",
         ua: "<span>2002-2007</span> ХНУ ім.В.Н.Каразіна, механіко-математичний факультет, спеціалізація: математика. Магістр математики та інформатики."
+    },
+    "View on github": {
+        en: "View on github",
+        ru: "Посмотреть на github",
+        ua: "Подивитися на github"
     }
 };
 
