@@ -72,6 +72,10 @@ section, footer, header{
     background-image: url("../img/Screenshot_Categories-search-results.png");
 }
 
+.thumbs a.img5{
+    background-image: url("../img/Screenshot_Internet-shop-Flowers.png");
+}
+
 .thumbs a:after{
 	background-color: #211D34;
     border-radius: 7px;
