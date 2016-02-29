@@ -193,14 +193,15 @@ nav#navigation {
 
 #contacts {
   margin: 25px 0;
-  min-height: 830px; }
+  min-height: 830px;
+  min-width: 660px; }
   #contacts .content_contacts {
-    width: 55%;
+    width: 35%;
     margin: 70px auto;
     background-color: rgba(255, 255, 255, 0.63);
-    padding: 50px 50px; }
+    padding: 25px 25px; }
     #contacts .content_contacts h4 {
-      text-align: center;
+      text-align: left;
       font-family: 'Andika', sans-serif;
       margin: 0;
       font-size: 20px;
@@ -250,7 +251,10 @@ nav#navigation {
   #about_me .my_edu_exp {
     width: 66%; }
   #about_me .my_photo {
-    width: 33%; } }
+    width: 33%; }
+
+  #contacts .content_contacts {
+    width: 48%; } }
 @media screen and (max-width: 767px) {
   #about_me .my_skills {
     clear: both;
@@ -276,9 +280,12 @@ nav#navigation {
     font-size: 13px; }
 
   #main {
-    width: 90%; } }
+    width: 90%; }
+
+  #contacts .content_contacts {
+    width: 50%; } }
 @media screen and (max-width: 700px) {
   #contacts .content_contacts {
-    width: 100%; } }
+    padding: 0; } }
 
 /*# sourceMappingURL=style.css.map */
