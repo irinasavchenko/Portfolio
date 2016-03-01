@@ -26,6 +26,8 @@ nav#navigation {
       background-color: #211D34; }
       nav#navigation .container-fluid div.brand button.navbar-toggle {
         margin-bottom: 0; }
+      nav#navigation .container-fluid div.brand button.navbar-toggle:hover {
+        background-color: rgba(158, 158, 158, 0.32); }
       nav#navigation .container-fluid div.brand .mdl-tooltip {
         background-color: #211D34; }
     nav#navigation .container-fluid ul.menu-items {
@@ -200,45 +202,45 @@ nav#navigation {
     margin: 70px auto;
     background-color: rgba(255, 255, 255, 0.63);
     padding: 25px 25px; }
-    #contacts .content_contacts h4 {
-      text-align: left;
+    #contacts .content_contacts ul {
       font-family: 'Andika', sans-serif;
-      margin: 0;
+      width: 320px;
+      margin: 0 auto;
       font-size: 20px;
       line-height: 50px; }
-      #contacts .content_contacts h4 a.facebook, #contacts .content_contacts h4 a.skype, #contacts .content_contacts h4 a.ln, #contacts .content_contacts h4 a.twitter, #contacts .content_contacts h4 a.github, #contacts .content_contacts h4 a.e_mail {
-        padding: 0 45px;
-        color: rgba(24, 31, 74, 0.61); }
-      #contacts .content_contacts h4 a.facebook:hover, #contacts .content_contacts h4 a.skype:hover, #contacts .content_contacts h4 a.ln:hover, #contacts .content_contacts h4 a.twitter:hover, #contacts .content_contacts h4 a.github:hover, #contacts .content_contacts h4 a.e_mail:hover {
-        color: #12064a;
-        font-weight: bold;
-        text-decoration: none; }
-      #contacts .content_contacts h4 a.facebook {
-        background: url("../images/facebook.png") no-repeat; }
-      #contacts .content_contacts h4 a.facebook:hover {
-        background: url("../images/facebook_color.png") no-repeat; }
-      #contacts .content_contacts h4 a.skype {
-        background: url("../images/skype.png") no-repeat; }
-      #contacts .content_contacts h4 a.skype:hover {
-        background: url("../images/skype_color.png") no-repeat; }
-      #contacts .content_contacts h4 a.ln {
-        background: url("../images/linkedin.png") no-repeat; }
-      #contacts .content_contacts h4 a.ln:hover {
-        background: url("../images/linkedin_color.png") no-repeat; }
-      #contacts .content_contacts h4 a.twitter {
-        background: url("../images/twitter.png") no-repeat; }
-      #contacts .content_contacts h4 a.twitter:hover {
-        background: url("../images/twitter_color.png") no-repeat; }
-      #contacts .content_contacts h4 a.github {
-        background: url("../images/github.png") no-repeat; }
-      #contacts .content_contacts h4 a.github:hover {
-        background: url("../images/github_color.png") no-repeat; }
-      #contacts .content_contacts h4 a.e_mail {
-        background: url("../images/email.png") no-repeat; }
-      #contacts .content_contacts h4 a.e_mail:hover {
-        background: url("../images/email_color.png") no-repeat; }
-    #contacts .content_contacts h4 > b {
-      color: #12064a; }
+      #contacts .content_contacts ul li {
+        display: block; }
+        #contacts .content_contacts ul li a.facebook, #contacts .content_contacts ul li a.skype, #contacts .content_contacts ul li a.ln, #contacts .content_contacts ul li a.twitter, #contacts .content_contacts ul li a.github, #contacts .content_contacts ul li a.e_mail {
+          padding: 0 45px;
+          color: rgba(24, 31, 74, 0.61); }
+        #contacts .content_contacts ul li a.facebook:hover, #contacts .content_contacts ul li a.skype:hover, #contacts .content_contacts ul li a.ln:hover, #contacts .content_contacts ul li a.twitter:hover, #contacts .content_contacts ul li a.github:hover, #contacts .content_contacts ul li a.e_mail:hover {
+          color: #12064a;
+          font-weight: bold;
+          text-decoration: none; }
+        #contacts .content_contacts ul li a.facebook {
+          background: url("../images/facebook.png") no-repeat; }
+        #contacts .content_contacts ul li a.facebook:hover {
+          background: url("../images/facebook_color.png") no-repeat; }
+        #contacts .content_contacts ul li a.skype {
+          background: url("../images/skype.png") no-repeat; }
+        #contacts .content_contacts ul li a.skype:hover {
+          background: url("../images/skype_color.png") no-repeat; }
+        #contacts .content_contacts ul li a.ln {
+          background: url("../images/linkedin.png") no-repeat; }
+        #contacts .content_contacts ul li a.ln:hover {
+          background: url("../images/linkedin_color.png") no-repeat; }
+        #contacts .content_contacts ul li a.twitter {
+          background: url("../images/twitter.png") no-repeat; }
+        #contacts .content_contacts ul li a.twitter:hover {
+          background: url("../images/twitter_color.png") no-repeat; }
+        #contacts .content_contacts ul li a.github {
+          background: url("../images/github.png") no-repeat; }
+        #contacts .content_contacts ul li a.github:hover {
+          background: url("../images/github_color.png") no-repeat; }
+        #contacts .content_contacts ul li a.e_mail {
+          background: url("../images/email.png") no-repeat; }
+        #contacts .content_contacts ul li a.e_mail:hover {
+          background: url("../images/email_color.png") no-repeat; }
 
 @media screen and (max-width: 1100px) {
   #about_me .my_skills {
@@ -254,7 +256,7 @@ nav#navigation {
     width: 33%; }
 
   #contacts .content_contacts {
-    width: 48%; } }
+    width: 45%; } }
 @media screen and (max-width: 767px) {
   #about_me .my_skills {
     clear: both;
@@ -283,9 +285,14 @@ nav#navigation {
     width: 90%; }
 
   #contacts .content_contacts {
-    width: 50%; } }
+    width: 55%; } }
+/*
 @media screen and (max-width: 700px) {
-  #contacts .content_contacts {
-    padding: 0; } }
+  #contacts {
+    .content_contacts {
+      padding: 0;
+    }
+  }
+}*/
 
 /*# sourceMappingURL=style.css.map */
