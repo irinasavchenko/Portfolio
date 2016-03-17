@@ -257,7 +257,7 @@ nav#navigation {
 #contacts {
   margin: 25px 0;
   min-height: 830px;
-  min-width: 660px;
+
   .content_contacts {
     width: 35%;
     margin: 70px auto;
@@ -346,7 +346,7 @@ nav#navigation {
     }
 }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 800px) {
     #about_me {
       .my_skills {
         clear: both;
@@ -382,7 +382,7 @@ nav#navigation {
       }
     }
     #main {
-      width: 90%;
+      width: 75%;
     }
     #contacts {
       .content_contacts {
@@ -391,17 +391,43 @@ nav#navigation {
     }
 }
 
-/*
+
 @media screen and (max-width: 700px) {
+ #main {
+   width: 100%;
+ }
   #contacts {
     .content_contacts {
       padding: 0;
+      width: 100%;
     }
   }
-}*/
+}
+
+@media screen and (max-width: 340px) {
+  nav#navigation {
+    .container-fluid {
+      a.navbar-brand {
+        padding: 0 10px;
+        font-size: 12px;
+      }
+    }
+  }
+  #credit {
+    p.credit {
+      font-size: 15px;
+      width: 320px;
+    }
+  }
+}
+  
 
 
-
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
 
 
 
